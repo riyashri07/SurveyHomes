@@ -1,1 +1,1 @@
-# -simple-tank-2275
+# simple-tank-2275
