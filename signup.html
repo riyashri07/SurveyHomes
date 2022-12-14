@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup_page</title>
+    <link rel="stylesheet" href="/Style/style.css">
+
+    <style>
+        body {
+            background-color: rgb(237, 235, 235);
+            /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+        }
+
+        #logo {
+            height: 80px;
+            width: 32%;
+            /* border: 1px solid black; */
+            text-align: center;
+            margin: auto;
+            padding-right: 25%;
+        }
+
+        #main {
+          
+            height: 600px;
+            width: 32%;
+            margin: auto;
+            text-align: center;
+            margin-top: 20px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            background-color: rgb(240, 243, 246);
+        }
+        #main>h3>a{
+          color:rgb(62, 190, 180);
+        }
+
+        #main>h3 {
+            padding-top: 5%;
+            padding-left: 30%;
+            color: rgb(59, 58, 58);
+        }
+
+        #main>h1 {
+            padding-top: 2%;
+            padding-right: 30%;
+            color: rgb(59, 58, 58);
+        }
+
+        #main>h4 {
+            /* padding-top: 1%; */
+            padding-right: 65%;
+            color: rgb(83, 82, 82);
+        }
+
+        #main>input {
+            width: 80%;
+            padding: 18px;
+            border: none;
+            border: 1px solid rgb(183, 195, 183);
+            border-radius: 0px;
+            outline: none;
+
+            background: transparent;
+
+        }
+        .check>span{
+            color: rgb(83, 82, 82);
+        }
+        .check1>span{
+            color: rgb(83, 82, 82);
+        }
+
+
+       
+        .check{
+            padding-top: 5%;
+            text-align: left;
+            margin-left: 25px;
+        }
+        input.cb{
+            width: 20px;
+            height: 20px;
+        }
+      
+
+        .check1{
+            padding-top: 5%;
+            margin-left: 25px;
+            border: 0px solid red;
+            text-align: left;
+        }
+        input.cb1{
+            width: 20px;
+            height: 20px;
+        }
+        .next{
+        width: 80%;
+        padding: 15px;
+        border-radius: 5px;
+        background-color:rgb(157, 234, 228);
+        font-size: 16px;
+        /* border: 2px solid rgb(89, 14, 102); */
+        margin-top: 20px;
+        cursor: pointer;
+        border: none;
+        color: rgb(83, 82, 82);
+        }
+        hr{
+            margin-top: 30px;
+        }
+        #apps{
+            padding-right: 60%;
+            color: rgb(59, 58, 58);
+        }
+    
+    </style>
+
+
+</head>
+
+<body>
+    <div id="logo">
+        <img src="/Image/one.png" alt="">
+    </div>
+
+    <div id="main">
+        <h3>Already have an account? <a href="login.html">Log in</a></h3>
+        <h1>Create an account</h1>
+        <h4>Email address</h4>
+        <input type="text" placeholder="Enter your email" id="email">
+       
+        <div class="check">
+            <input type="checkbox"  class="cb" >
+            <span> you agree to the <a href="">Terms of Use</a>  & <a href="">Privacy Notice</a> </span>
+        </div>
+        <div class="check1">
+            <input type="checkbox"  class="cb1" >
+            <span> You agree to receive product news and special promotions via email. You can opt-out of these emails in your My Account page anytime.</span>
+        </div>
+
+        <button class="next">Next</button>
+
+        <hr>
+
+        <div id="apps">
+            <h3>Or sign up with</h3>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+<script src="/Script/index.js"></script> 
