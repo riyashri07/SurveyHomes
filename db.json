@@ -1,0 +1,286 @@
+{
+  "admin": [
+    {
+      "username": "vishalanand",
+      "password": "vishal",
+      "email": "iam.vishalanand11@gmail.com",
+      "firstname": "Vishal",
+      "lastname": "Anand",
+      "id": 1
+    },
+    {
+      "username": "amanchoudhary",
+      "password": "aman",
+      "email": "aman.chaudhary214@gmail.com",
+      "firstname": "Aman",
+      "lastname": "Chaudhary",
+      "id": 2
+    },
+    {
+      "username": "riyashri07",
+      "password": "riya",
+      "email": "riyashri07@gmail.com",
+      "firstname": "Riya",
+      "lastname": "Shrivastava",
+      "id": 3
+    },
+    {
+      "username": "rakesh",
+      "password": "rakesh",
+      "email": "rakesh@gmail.com",
+      "firstname": "Rakesh",
+      "lastname": "Kumar",
+      "id": 4
+    },
+    {
+      "username": "suhail",
+      "password": "suhail",
+      "email": "suhail@gmail.com",
+      "firstname": "Mohd",
+      "lastname": "Suhail",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Customer Satisfaction Survey",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//customer-satisfaction-survey-template-1.png"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "title": "Market research- product survey",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//Product-Survey.png"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "title": "360 degree employee evaluation",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//360-Degree-Employee-Evaluation.png"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "title": "Brand awarness survey template",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//Brand-Awareness.png"
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "title": "Product testing",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//product-testing-survey-template.png"
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "title": "Employee engagement",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//employee-engagement-survey-template.png"
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "title": "Customer service",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//customer-service-survey-template.png"
+    },
+    {
+      "id": 8,
+      "userId": 1,
+      "title": "Website feedback survey template",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//Website_surveys.png"
+    },
+    {
+      "id": 9,
+      "userId": 1,
+      "title": "Management performance",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//management-performance-survey-template.png"
+    },
+    {
+      "id": 10,
+      "userId": 1,
+      "title": "General event feedback survey",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//general-event-feedback-survey-template.png"
+    },
+    {
+      "id": 11,
+      "userId": 1,
+      "title": "Employee satisfaction",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//employee-satisfaction-survey-template.png"
+    },
+    {
+      "id": 12,
+      "userId": 1,
+      "title": "University student satisfaction",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//university-student-satisfaction-survey-template.png"
+    },
+    {
+      "id": 13,
+      "userId": 1,
+      "title": "Environmental issues survey",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//environmental-issues-survey-template.png"
+    },
+    {
+      "id": 14,
+      "userId": 1,
+      "title": "Net promoter score (NPS)",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//net-promoter-score-survey-template.png"
+    },
+    {
+      "id": 15,
+      "userId": 1,
+      "title": "software evaluation survey template",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//software-evaluation-survey-template.png"
+    },
+    {
+      "id": 16,
+      "userId": 1,
+      "title": "Education demographics",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//education-demographics-survey-template.png"
+    },
+    {
+      "id": 17,
+      "userId": 1,
+      "title": "Online shopping attitudes",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//online-shopping-attitudes-survey-template.png"
+    },
+    {
+      "id": 18,
+      "userId": 1,
+      "title": "Customer service feedback",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//customer-service-feedback-survey-template.png"
+    },
+    {
+      "id": 19,
+      "userId": 1,
+      "title": "Team performance",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//team-performance-survey-template.png"
+    },
+    {
+      "id": 20,
+      "userId": 1,
+      "title": "Course evaluation survey template",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//survey-template-placeholder.png"
+    },
+    {
+      "id": 21,
+      "userId": 1,
+      "title": "Hotel feedback",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//hotel-feedback-survey-template.png"
+    },
+    {
+      "id": 22,
+      "userId": 1,
+      "title": "RSVP and contact information",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//rsvp-contact-information-survey-template.png"
+    },
+    {
+      "id": 23,
+      "userId": 1,
+      "title": "Professional event feedback",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//professional-event-feedback-survey-template.png"
+    },
+    {
+      "id": 24,
+      "userId": 1,
+      "title": "Employee exit",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//employee-exit-survey-template.png"
+    },
+    {
+      "userId": "1",
+      "title": "Volunteer feedback",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//volunteer-feedback-survey-template.png",
+      "id": 25
+    },
+    {
+      "userId": "1",
+      "title": "Employee benefits",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//employee-benefits-survey-template.png",
+      "id": 26
+    },
+    {
+      "userId": "1",
+      "title": "Post-event feedback survey template",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//post-event-feedback-survey-template.png",
+      "id": 27
+    },
+    {
+      "userId": "1",
+      "title": "Market research- service",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//market-research-service-survey-template.png",
+      "id": 28
+    },
+    {
+      "userId": "1",
+      "title": "Recruitment satisfaction",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//recruitment-satisfaction-survey-template.png",
+      "id": 29
+    },
+    {
+      "userId": "1",
+      "title": "Customer behaviour",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//consumer-behavior-survey-template.png",
+      "id": 30
+    },
+    {
+      "userId": "1",
+      "title": "Diet, fitness and exercise",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//diet-exercise-survey-template.png",
+      "id": 31
+    },
+    {
+      "userId": "1",
+      "title": "Work environment",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//work-environment-survey-template.png",
+      "id": 32
+    },
+    {
+      "userId": "1",
+      "title": "Event planning",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//event-planning-survey-template.png",
+      "id": 33
+    },
+    {
+      "userId": "1",
+      "title": "Market research survey template",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//market-research-survey-template.png",
+      "id": 34
+    },
+    {
+      "userId": "1",
+      "title": "Department performance",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//department-performance-survey-template.png",
+      "id": 35
+    },
+    {
+      "userId": "1",
+      "title": "Skin care products",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//skin-care-products-survey-template.png",
+      "id": 36
+    },
+    {
+      "userId": "1",
+      "title": "Employee performance",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//employee-performance-survey-template.png",
+      "id": 37
+    },
+    {
+      "userId": "1",
+      "title": "New product template",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//new-product-survey-template.png",
+      "id": 38
+    },
+    {
+      "userId": "1",
+      "title": "U.S. demographics",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//u-s-demographics-survey-template.png",
+      "id": 39
+    },
+    {
+      "userId": "1",
+      "title": "Employment template",
+      "image": "https://prod.smassets.net/assets/cms/sm/uploads//employment-survey-template.png",
+      "id": 40
+    }
+  ]
+}
