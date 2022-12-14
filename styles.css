@@ -260,7 +260,7 @@
     margin: auto;
     margin-top: 75px;
     padding: 20px 0px 20px;
-    background-color: rgb(247,247,247);
+    background-color: rgb(247, 247, 247);
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -312,6 +312,4 @@
     width: 100%;
 }
 
-#footer {
-    
-}
+#footer {}
