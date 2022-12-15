@@ -15,7 +15,7 @@ function appendLoginData(){
 }
 appendLoginData()
 
-let url='http://localhost:3000/admin'
+let url='https://636a23c5b10125b78fd19a2e.mockapi.io/admin'
 
 let data=[]
 
@@ -63,6 +63,5 @@ function checkCredentials(event){
     else{
         alert(ans)
     }
-
 }
 
