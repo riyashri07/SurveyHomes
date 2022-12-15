@@ -6,7 +6,7 @@
 #navbar {
     margin: auto;
     width: auto;
-    height: 100px;
+    height: 75px;
     padding-left: 75px;
     padding-right: 75px;
     position: sticky;
@@ -37,7 +37,7 @@
 }
 
 #navbar>div>button {
-    padding: 10px 15px 10px;
+    padding: 8px 12px 8px;
     border-radius: 5px;
     background-color: rgb(249, 190, 0);
     border: 0px;
@@ -48,7 +48,7 @@
 }
 
 #navbar>div>button:first-child {
-    padding: 10px 15px 10px;
+    padding: 8px 12px 8px;
     border-radius: 5px;
     background-color: white;
     border: 0px;
@@ -60,7 +60,7 @@
 
 #top-banner {
     margin: auto;
-    height: 550px;
+    height: 575px;
     background-color: rgb(202, 232, 220);
 }
 
@@ -69,20 +69,24 @@
     height: auto;
     width: 75%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     color: rgb(34, 79, 60);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #top-banner>div>div>p {
-    margin-top: -30px;
+    padding-bottom: 10px;
     font-weight: 500;
 }
 
+#top-banner>div>div {
+    width: 45%;
+}
+
 #top-banner>div>div>button {
-    margin-top: 25px;
-    padding: 15px 40px 15px;
+    margin-top: 20px;
+    padding: 12px 35px 12px;
     border-radius: 5px;
     background-color: rgb(249, 190, 0);
     font-weight: 500;
@@ -94,7 +98,7 @@
 
 #top-banner>div>div:first-child>button:last-child {
     margin-top: 25px;
-    padding: 15px 40px 15px;
+    padding: 12px 35px 12px;
     border-radius: 5px;
     background-color: white;
     font-weight: 500;
@@ -106,8 +110,8 @@
 
 #banner1 {
     margin: auto;
-    margin-top: 50px;
-    padding: 10px 0px 20px;
+    margin-top: 75px;
+    padding: 25px;
     width: 70%;
     height: auto;
     text-align: center;
@@ -115,6 +119,7 @@
 }
 
 #banner1>p {
+    margin-bottom: 30px;
     font-size: 22px;
     font-weight: 600;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -126,7 +131,7 @@
     background-color: white;
     font-weight: 500;
     border: 0px;
-    margin: auto 20px auto;
+    margin: auto 20px 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -142,13 +147,14 @@
 }
 
 #banner2>div {
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
 }
 
 #banner2>div>img {
     margin: auto;
-    width: 15%;
+    width: 17.5%;
 }
 
 #banner3 {
@@ -159,6 +165,12 @@
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#banner3>p {
+    margin-bottom: 30px;
+    font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -180,21 +192,25 @@
     padding: 25px 0px 25px;
     border-radius: 7px 7px 0px 0px;
     color: white;
+    font-weight: 600;
 }
 
 #details {
     padding: 20px 50px 20px;
-    font-size: 15px;
+    font-size: 16px;
+}
+
+#details>p, #details>h2 {
+    margin: 15px auto 15px;
 }
 
 #details>button {
-    margin: 20px auto 20px;
+    margin: 25px auto 25px;
     padding: 10px 15px 10px;
     border-radius: 5px;
     border: 0px;
     color: white;
     font-size: medium;
-    font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -207,11 +223,15 @@
 
 #banner4>div {
     position: absolute;
-    top: 1875px;
+    top: 1965px;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
+}
+
+#banner4>div>p {
+    margin: 15px;
 }
 
 #banner4>div>button {
@@ -230,12 +250,16 @@
 }
 
 #banner5 {
-    width: 50%;
+    width: 65%;
     margin: auto;
     margin-top: 75px;
     text-align: center;
     font-size: 17px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#banner5>p {
+    margin: 25px;
 }
 
 #banner6 {
@@ -247,14 +271,25 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#banner6>p {
+    margin: 15px;
+}
+
 #banner6>div {
     margin: auto;
+    margin-top: 25px;
     display: flex;
     justify-content: space-between;
 }
 
 #banner6>div>div {
     width: 30%;
+}
+
+#banner6>div>div>p {
+    padding: 0px 20px 0px;
+    margin: 15px;
+    font-size: 16px;
 }
 
 #banner6>div>div>img {
@@ -273,6 +308,7 @@
 #banner7>div {
     width: 75%;
     margin: auto;
+    margin-top: 25px;
     display: flex;
     justify-content: space-between;
 }
@@ -280,6 +316,11 @@
 #banner7>div>div {
     width: 40%;
     font-size: 17px;
+}
+
+#banner7>div>div>p {
+    margin: 10px;
+    font-size: 16px;
 }
 
 #banner7>div>div>button {
@@ -300,6 +341,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#banner8>p {
+    margin: 20px;
+}
+
 #banner8>div {
     width: 90%;
     margin: auto;
@@ -317,4 +362,7 @@
     width: 100%;
 }
 
-#footer {}
+#banner8>div>div>p {
+    margin: 15px;
+}
+
