@@ -112,7 +112,7 @@ for(let select of a){
 document.querySelector('#show-details>input').addEventListener('input',search);
 
 function search(){
-    test()
+    unclick()
     let input=document.querySelector('#show-details>input').value;
     let newData=data.filter((element)=>{
         let entrered=element.title.toLowerCase().includes(input.toLowerCase());
@@ -135,15 +135,7 @@ function search(){
     }
 }
 
-
-document.querySelector('#show-all').addEventListener('click', function(){
-    renderData(data)
-    show_all_templates=data.length
-    document.querySelector('#show-all-templates').innerHTML=`Showing <span id="show">${show_all_templates}</span> templates`
-})
-
-
-function test(){
+function unclick(){
     let a=document.querySelectorAll('#left-container-labels');
     let n=a[0].children.length
 
