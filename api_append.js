@@ -2,6 +2,8 @@
 let data=[]
 let show_all_templates=0;
 
+// getting the data on load
+
 window.addEventListener('load',async ()=>{
     let fetchedProducts=await fetch('https://636a23c5b10125b78fd19a2e.mockapi.io/products', {
         method: 'GET',
@@ -23,6 +25,8 @@ window.addEventListener('load',async ()=>{
     }
 })
 
+// rendering the data to the DOM
+
 function renderData(data){
     let renderto= document.querySelector('#right-container');
 
@@ -37,6 +41,7 @@ function renderData(data){
     renderto.innerHTML=newData.join('');
 }
 
+// click function on left container- checkbox
 
 let a=document.querySelectorAll('.checkbox')
 
@@ -44,7 +49,7 @@ for(let select of a){
     select.addEventListener('click', function(event){
         document.querySelector('#left-container>div:nth-child(2)>input').value=null;
         
-        console.log(event)
+        // console.log(event)
         let clicked=event.target.defaultValue
         let renderto= document.querySelector('#right-container');
         renderto.innerHTML=null
@@ -62,8 +67,11 @@ for(let select of a){
 
 document.querySelector('#left-container>div:nth-child(2)>input').addEventListener('input',search);
 
-function search(){
 
+// search functionality
+
+function search(){
+    unclick()
     let input=document.querySelector('#left-container>div:nth-child(2)>input').value;
     let newData=data.filter((element)=>{
         let entrered=element.title.toLowerCase().includes(input.toLowerCase());
@@ -88,12 +96,16 @@ function search(){
 }
 
 
-document.querySelector('#show-all').addEventListener('click', function(){
-    renderData(data)
-    show_all_templates=data.length
-    document.querySelector('#show-all-templates').innerHTML=`Showing <span id="show">${show_all_templates}</span> templates`
+// unclick function on checkbox
 
-})
+function unclick(){
+    let a=document.querySelectorAll('#left-container-labels');
+    let n=a[0].children.length
+
+    for(let i=0;i<n;i++){
+        a[0].children[i].children[0].checked=false
+    }
+}
 
 
 

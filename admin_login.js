@@ -58,7 +58,7 @@ function checkCredentials(event){
     }
     if(ans=='login successfull'){
         alert(ans)
-        window.location.href='admin_dashboard.js'
+        window.location.href='admin_dashboard.html'
     }
     else{
         alert(ans)
