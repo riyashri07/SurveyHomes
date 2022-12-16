@@ -25,15 +25,60 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#navbar>div:nth-child(2) {
-    width: 40%;
+nav {
+    width: 50%;
     height: auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     font-size: medium;
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: auto 37px;
+    
+}
+
+nav ul li a {
+    color: black;
+    display: block;
+    line-height: 50px;
+    text-decoration: none;
+    background: white;
+    font-size: medium;
+    transition: 0.5s;
+}
+
+nav ul li ul {
+    position: absolute;
+    top: 75px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+nav ul li:hover ul {
+    top: 78px;
+    padding: 20px 30px 20px;
+    border-radius: 5px;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.2s linear;
+    background-color: white;
+}
+
+nav ul li:hover ul p {
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+nav ul li ul li {
+    width: auto;
+    display: list-item;
+    position: relative;
 }
 
 #navbar>div>button {
@@ -111,8 +156,8 @@
 #banner1 {
     margin: auto;
     margin-top: 75px;
-    padding: 25px;
-    width: 70%;
+    padding: 30px;
+    width: 65%;
     height: auto;
     text-align: center;
     background-color: rgb(247, 247, 247);
@@ -132,7 +177,32 @@
     font-weight: 500;
     border: 0px;
     margin: auto 20px 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#grid_container {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+#grid_container>div {
+    margin: auto;
+}
+
+#first {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#grid_container>div>img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #banner2 {
@@ -182,15 +252,15 @@
 }
 
 #box {
-    width: 27.5%;
-    border-radius: 7px;
+    width: 27%;
+    border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 #title {
     font-size: large;
     padding: 25px 0px 25px;
-    border-radius: 7px 7px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
     color: white;
     font-weight: 600;
 }
@@ -218,24 +288,22 @@
     width: 100%;
     margin: auto;
     margin-top: 75px;
-    text-align: center;
 }
 
 #banner4>div {
     position: absolute;
-    top: 1965px;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 2500px;
+    left: 10%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
 }
 
 #banner4>div>p {
-    margin: 15px;
+    margin-bottom: 15px;
 }
 
 #banner4>div>button {
-    margin: 20px auto 20px;
+    margin: 25px auto;
     padding: 10px 25px 10px;
     border-radius: 5px;
     border: 0px;
@@ -336,7 +404,7 @@
 
 #banner8 {
     margin: auto;
-    margin-top: 75px;
+    margin-top: 100px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -366,3 +434,89 @@
     margin: 15px;
 }
 
+#bottom {
+    margin: auto;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(251, 251, 251);
+}
+
+#bottom>div {
+    display: flex;
+    justify-content: space-around;
+}
+
+#bottom>div>div>a>img {
+    width: 175px;
+    margin-top: 15px;
+}
+
+#bottom>div>div>a>img:hover {
+    transform: scale(1.05);
+    z-index: 2;
+}
+
+#bottom>div>div>h3 {
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+#bottom>div>div>p {
+    font-size: small;
+    margin-bottom: 7px;
+    color: rgb(100, 100, 100);
+}
+
+#bottom>div>div>input {
+    margin: 10px auto 20px;
+    width: 80%;
+    height: 30px;
+    padding-left: 20px;
+}
+
+#bottom>div>div>a>button {
+    color: white;
+    background-color: rgb(249, 190, 0);
+    padding: 10px 15px 10px;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+}
+
+#bottom>div>div>a>button:hover {
+    transform: scale(1.05);
+    z-index: 2;
+}
+
+#footer {
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+    height: 55px;
+    border-top: 0.25px solid lightgray;
+    border-bottom: 0.25px solid lightgray;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer>img {
+    height: 75%;
+    margin: auto;
+}
+
+#footer>svg {
+    height: 50%;
+    margin: auto;
+    padding: 5px;
+    cursor: pointer;
+}
+
+body>p {
+    margin: 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
