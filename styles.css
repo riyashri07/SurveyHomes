@@ -3,6 +3,13 @@
     margin: 0;
 }
 
+* button:hover {
+    cursor: pointer;
+    transform: scale(1.06);
+    transition: 0.2s linear;
+    z-index: 2;
+}
+
 #navbar {
     margin: auto;
     width: auto;
@@ -25,7 +32,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-nav {
+#nav_container {
     width: 50%;
     height: auto;
     display: flex;
@@ -37,58 +44,80 @@ nav {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-nav ul li {
+#nav_container ul li {
+    position: relative;
     display: inline-block;
-    margin: auto 37px;
-    
+    margin: 0px 35px;
+    line-height: 75px;
 }
 
-nav ul li a {
+#nav_container ul li a {
     color: black;
     display: block;
-    line-height: 50px;
+    line-height: 70px;
     text-decoration: none;
     background: white;
     font-size: medium;
     transition: 0.5s;
 }
 
-nav ul li ul {
-    position: absolute;
-    top: 75px;
-    opacity: 0;
-    visibility: hidden;
+#nav_container>ul>li>a:hover {
+    color: rgb(50, 150, 130);
+    transform: scale(1.05);
+    transition: 0.2s linear;
+    z-index: 2;
 }
 
-nav ul li:hover ul {
-    top: 78px;
-    padding: 20px 30px 20px;
-    border-radius: 5px;
+#nav_container ul li ul {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#nav_container ul li:hover>ul {
     visibility: visible;
     opacity: 1;
-    transition: 0.2s linear;
+    width: 300px;
+    top: 78px;
+    border-radius: 5px;
+    transition: 0.25s linear;
     background-color: white;
 }
 
-nav ul li:hover ul p {
+#nav_container ul li:hover ul li {
     font-weight: 400;
-    margin-bottom: 15px;
+    font-size: 14px;
+    display: block;
+    padding: 0px 20px 0px;
+    margin: 0px;
 }
 
-nav ul li ul li {
-    width: auto;
-    display: list-item;
-    position: relative;
+#nav_container ul ul li ul {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#nav_container ul ul li:hover>ul {
+    visibility: visible;
+    opacity: 1;
+    width: 250px;
+    top: 0px;
+    margin-left: 290px;
+    border-radius: 5px;
+    transition: 0.25s linear;
+    background-color: white;
+    transform: 2s;
 }
 
 #navbar>div>button {
+    margin-right: 20px;
     padding: 8px 12px 8px;
     border-radius: 5px;
     background-color: rgb(249, 190, 0);
     border: 0px;
     font-size: medium;
     font-weight: 500;
-    margin-right: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -160,7 +189,7 @@ nav ul li ul li {
     width: 65%;
     height: auto;
     text-align: center;
-    background-color: rgb(247, 247, 247);
+    background-image: linear-gradient(rgb(225, 225, 225), white);
 }
 
 #banner1>p {
@@ -203,6 +232,13 @@ nav ul li ul li {
     width: 100%;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#grid_container>div>img:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.2s linear;
+    z-index: 2;
 }
 
 #banner2 {
@@ -255,6 +291,12 @@ nav ul li ul li {
     width: 27%;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#box:hover {
+    transform: scale(1.1);
+    transition: 0.2s linear;
+    z-index: 2;
 }
 
 #title {
@@ -354,6 +396,13 @@ nav ul li ul li {
     width: 30%;
 }
 
+#banner6>div>div:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.2s linear;
+    z-index: 2;
+}
+
 #banner6>div>div>p {
     padding: 0px 20px 0px;
     margin: 15px;
@@ -426,6 +475,13 @@ nav ul li ul li {
     padding: 50px;
 }
 
+#banner8>div>div:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.2s linear;
+    z-index: 2;
+}
+
 #banner8>div>div>img {
     width: 100%;
 }
@@ -466,6 +522,13 @@ nav ul li ul li {
     font-size: small;
     margin-bottom: 7px;
     color: rgb(100, 100, 100);
+}
+
+#bottom>div>div>p:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.2s linear;
+    z-index: 2;
 }
 
 #bottom>div>div>input {
@@ -512,6 +575,12 @@ nav ul li ul li {
     margin: auto;
     padding: 5px;
     cursor: pointer;
+}
+
+#footer>svg:hover {
+    transform: scale(1.25);
+    transition: 0.2s linear;
+    z-index: 2;
 }
 
 body>p {
