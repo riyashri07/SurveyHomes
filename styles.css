@@ -365,7 +365,7 @@
 
 #banner4>div {
     position: absolute;
-    top: 2500px;
+    top: 2460px;
     left: 10%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
@@ -447,7 +447,7 @@
 #banner7 {
     margin: auto;
     margin-top: 75px;
-    padding: 20px 0px 20px;
+    padding: 25px 0px 25px;
     background-color: rgb(247, 247, 247);
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -484,7 +484,7 @@
 
 #banner8 {
     margin: auto;
-    margin-top: 100px;
+    margin-top: 75px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -523,6 +523,7 @@
 
 #bottom {
     margin: auto;
+    margin-top: 25px;
     width: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(251, 251, 251);
