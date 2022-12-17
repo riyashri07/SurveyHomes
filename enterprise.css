@@ -1,0 +1,245 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#navbar {
+    margin: auto;
+    width: auto;
+    height: 75px;
+    padding-left: 75px;
+    padding-right: 75px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    z-index: 10;
+}
+
+#navbar>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navbar>div:nth-child(2) {
+    width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: medium;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navbar>div>button {
+    padding: 8px 12px 8px;
+    border-radius: 5px;
+    background-color: rgb(249, 190, 0);
+    border: 0px;
+    font-size: medium;
+    font-weight: 500;
+    margin-right: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navbar>div>button:first-child {
+    padding: 8px 12px 8px;
+    border-radius: 5px;
+    background-color: white;
+    border: 0px;
+    font-size: medium;
+    font-weight: 500;
+    margin-right: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#top{
+    width: 40%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    color: #2e2e2a;
+}
+#top1{
+    width: 30%;
+    display: flex;
+    margin: auto;
+    margin-top: 15px;
+   
+}
+#top1>div{
+    margin: auto;
+    
+}
+
+#mid_enterprise{
+    /* border: 1px solid purple; */
+    width: 85%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#box1{
+   /* border: 1px solid black; */
+   width: 40%;
+
+}
+
+#box1_para{
+    margin-top: 20px;
+   font-size: 20px;
+  
+}
+#box1_ul{
+    padding-left: 60px;
+    margin-top: 10px;
+}
+.box1_list{
+    font-size: 19px;
+}
+.box1_list1{
+    font-size: 19px;
+    margin-top: 15px;
+}
+.box1_list2{
+    font-size: 19px;
+    margin-top: 15px;
+}
+#box2{
+     /* border: 1px solid black; */
+     width: 40%; 
+    background-color: #F7F8FA;
+ }
+ #box2_form{
+    /* border: 1px solid blue; */
+    padding-left: 30px;
+    padding-top: 20px;
+ }
+ form>h5{
+    font-size: 15px;
+ }
+form>input{
+    width: 90%;
+    height: 35px;
+    border-radius: 2px;
+   border-color: grey;
+}
+.cb{
+    margin-top: 20px;
+}
+ 
+
+
+
+hr{
+    color: #6e6e61;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+#bottom{
+    margin-top: 30px;
+}
+
+
+#bottom>div {
+    display: flex;
+    justify-content: space-around;
+}
+
+#bottom>div>div>a>img {
+    width: 175px;
+    margin-top: 15px;
+}
+
+#bottom>div>div>a>img:hover {
+    transform: scale(1.05);
+    z-index: 2;
+}
+
+#bottom>div>div>h3 {
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+#bottom>div>div>p {
+    font-size: small;
+    margin-bottom: 7px;
+    color: rgb(100, 100, 100);
+}
+
+#bottom>div>div>p:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.2s linear;
+    z-index: 2;
+}
+
+#bottom>div>div>input {
+    margin: 10px auto 20px;
+    width: 80%;
+    height: 30px;
+    padding-left: 20px;
+}
+
+#bottom>div>div>a>button {
+    color: white;
+    background-color: rgb(249, 190, 0);
+    padding: 10px 15px 10px;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+}
+
+#bottom>div>div>a>button:hover {
+    transform: scale(1.05);
+    z-index: 2;
+}
+
+#footer {
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+    height: 55px;
+    border-top: 0.25px solid lightgray;
+    border-bottom: 0.25px solid lightgray;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer>img {
+    height: 75%;
+    margin: auto;
+}
+
+#footer>svg {
+    height: 50%;
+    margin: auto;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#footer>svg:hover {
+    transform: scale(1.25);
+    transition: 0.2s linear;
+    z-index: 2;
+}
+
+body>p {
+    margin: 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
