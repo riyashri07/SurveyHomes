@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SurveyHome: The World's Most Popular Online Survey Tool</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="script" href="index.html">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
 </link>
     <link rel="icon" href="/images/Icon_logo.png" type="image/icon type">
@@ -102,7 +101,10 @@
         <img style="width: 50%;" src="/images/Tagline_logo.png" alt="Tagline">
         <p>Who is your survey audience?</p>
         <div>
-            <button>Employees</button><button>Customers</button><button>Target Markets</button><button>Other</button>
+            <button id="btn-employees">Employees</button>
+            <button id="btn-customer">Customers</button>
+            <button id="btn-market">Target Markets</button>
+            <button id="btn-other">Other</button>
         </div>
         <div id="grid_container">
             <div id="first">
@@ -334,3 +336,5 @@
         9876543210 | Site Map | Mobile Site | Copyright © 1999-2022 Momentive</p>
 </body>
 </html>
+
+<script src="./index.js"></script>
