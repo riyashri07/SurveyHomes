@@ -77,7 +77,7 @@
 #nav_container ul li:hover>ul {
     visibility: visible;
     opacity: 1;
-    width: 300px;
+    width: 305px;
     top: 78px;
     border-radius: 5px;
     transition: 0.25s linear;

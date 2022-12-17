@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SurveyHome: The World's Most Popular Online Survey Tool</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="api_append.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
 </link>
     <link rel="icon" href="/images/Icon_logo.png" type="image/icon type">
 </head>
@@ -178,14 +181,50 @@
     <div id="banner5">
         <p style="font-size: 30px; font-weight: 600;">Start with an expert-written template</p>
         <p>Our sample survey templates make it easy for you to start collecting feedback in just minutes.<br>Explore hundreds of questions across different survey types, all designed<br>to get you accurate results you can rely on.</p>
-        
-        
-        
-        <div id="container"></div>
-        
-    
-    
-    
+    </div>
+    <div id="container">
+        <div id="left-container">
+            <p id="show-all-templates"></p>
+            <div>
+                <input type="text" placeholder="Search"><span class="material-symbols-outlined">search</span>
+            </div>
+            <p>Filter by survey type</p>
+            <div id="left-container-labels">
+                <div>
+                    <input class="checkbox" name="checkbox" data-id="" type="radio" value="customers">
+                    <label>Customers</label>
+                </div>
+                <div>
+                    <input class="checkbox" name="checkbox" data-id="" type="radio" value="education">
+                    <label>Education</label> 
+                </div>
+                <div>
+                    <input class="checkbox" name="checkbox" data-id="" type="radio" value="employees">
+                    <label>Employees</label> 
+                </div>
+                <div>
+                    <input class="checkbox" name="checkbox" data-id="" type="radio" value="events">
+                    <label>Events</label> 
+                </div>
+                <div>
+                    <input class="checkbox" name="checkbox" data-id="" type="radio" value="healthcare">
+                    <label>Healthcare</label> 
+                </div>
+                <div>
+                    <input class="checkbox" name="checkbox" data-id="" type="radio" value="market research">
+                    <label>Market Research</label> 
+                </div>
+                <div>
+                    <input class="checkbox" name="checkbox" data-id="" type="radio" value="nonprofit">
+                    <label>Nonprofit</label> 
+                </div>
+                <div>
+                    <input class="checkbox" name="checkbox" data-id="" type="radio" value="other">
+                    <label>Other</label> 
+                </div>
+            </div>
+        </div>
+        <div id="right-container"></div>
     </div>
     <div id="banner6">
         <p style="font-size: 30px; font-weight: 600;">Tools that spark business breakthroughs</p>
@@ -338,3 +377,4 @@
 </html>
 
 <script src="./index.js"></script>
+<script src="api_append.js"></script>
