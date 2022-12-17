@@ -179,7 +179,6 @@
     flex-direction: row;
     width: 95%;
     height: auto;
-    /* border: 1px solid red; */
     margin: auto;
     padding-left: 130px;
 
@@ -187,7 +186,6 @@
 .poster-2-child1{
     width: 50%;
     height: auto;
-    /* border: 1px solid rgb(34, 3, 3); */
     text-align: center;
 }
 .poster-2-child2{
@@ -195,3 +193,4 @@
     height:auto;
     /* border: 1px solid rgb(3, 7, 34); */
 }
+/* add here footer work in progress */
