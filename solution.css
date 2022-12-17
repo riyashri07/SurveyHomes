@@ -63,7 +63,7 @@
 #awareness{
     width: 100%;
     height: auto;
-    border: 1px solid rgb(30, 255, 0); 
+    /* border: 1px solid rgb(30, 255, 0);  */
     text-align: center;
 }
 #awness{
@@ -91,6 +91,7 @@
     height: 800px;
     /* border: 1px solid rgb(255, 34, 0);  */
     background-color: rgb(60, 158, 4)
+    
 }
 .awness_gchild1{
     width: 100%;
@@ -114,21 +115,83 @@
     flex-direction: row;
     width: 100%;
     height: 800px;
-    border: 1px solid rgb(30, 255, 0);
+    /* border: 1px solid rgb(30, 255, 0); */
     margin-top: 100px; 
     background-color:rgb(82, 10, 10);
 }
 .customersuccess_child1{
     width: 50%;
     height: 800px;
-    border: 1px solid rgb(255, 34, 0); 
+    /* border: 1px solid rgb(255, 34, 0);  */
 }
 .customersuccess_child2{
     width: 50%;
     height: 800px;
-    border: 1px solid rgb(255, 34, 0); 
+    /* border: 1px solid rgb(255, 34, 0);  */
     text-align: center;
   margin-bottom: 200px;
+  margin: auto;
   color: white;
   font-size: 20px;
+  padding-top: 150px;
+}
+.bottom{
+    display: flex;
+    flex-direction:row;
+    width: 85%;
+    height: auto;
+    /* border: 1px solid rgb(34, 3, 3); */
+    margin: auto;
+    text-align: center;
+
+}
+
+.bottom-child{
+    width:20%;
+    height:auto;
+    /* border: 1px solid rgb(34, 3, 3); */
+    margin: auto;
+    text-align: center;
+
+}
+/* roger1 start here */
+.roger1{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    height:auto;
+    /* border:1px solid red; */
+    margin: auto;
+    text-align: center;
+    padding-left: 300px;
+    font-size: 30px;
+}
+.roger-child1{
+    width: 50%;
+    height: auto;
+    /* border:1px solid rgb(0, 64, 255); */
+}
+#rogerchild_front{
+    font-size: 20px;
+}
+.poster-2{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: auto;
+    /* border: 1px solid red; */
+    margin: auto;
+    padding-left: 130px;
+
+}
+.poster-2-child1{
+    width: 50%;
+    height: auto;
+    /* border: 1px solid rgb(34, 3, 3); */
+    text-align: center;
+}
+.poster-2-child2{
+    width: 50%;
+    height:auto;
+    /* border: 1px solid rgb(3, 7, 34); */
 }
