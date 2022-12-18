@@ -621,3 +621,76 @@ body>p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: small;
 }
+#top-banner img {
+    height: 40vw;
+}
+
+
+
+@media all and (max-width:1480px){
+    #nav_container ul li {
+        margin: 0px 20px;
+    }
+}
+@media all and (max-width:1024px){
+    #nav_container ul li {
+        margin: 0px 0px;
+    }
+    #top-banner img {
+        height: 450px;
+    }
+    #left-container {
+        width: auto;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    
+}
+
+@media all and (max-width:320px){
+    #navbar {
+        flex-direction: column;
+        height: 45vh;
+        position:initial;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    #top-banner>div {
+        display: flex;
+        flex-direction: column;
+    }
+    #nav_container {
+        width: 100%;
+
+    }
+    #top-banner img {
+        height: 10vw;
+        width: 200vw;
+    }
+    #banner8 {
+        width: 100vw;
+    }
+
+    #banner8>div{
+        flex-direction: column;
+    }
+    #bottom>div {
+        display: flex;
+        flex-direction: column;
+    }
+    #grid {
+        flex-direction: column;
+        
+    }
+    #footer>img {
+        width: 80vw;
+    }
+    #box {
+        width: 130%;
+        margin-bottom: 20px;
+    }
+    #navbar>div:nth-child(1){
+        margin: auto;
+    }
+
+}
