@@ -6,42 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loginpage</title>
+    <link rel="icon" href="./images/Icon_logo.png" type="image/icon type">
+
     <style>
+
         body {
             background-color: rgb(237, 235, 235);
-            /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
             font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
         }
 
-        #logo {
-            height: 80px;
-            width: 32%;
-            /* border: 1px solid black; */
-            text-align: center;
+        #main {
+            height: auto;
+            width: 32.5%;
             margin: auto;
-            padding-right: 25%;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            background-color: white;
         }
-        #logo>img{
+
+        #logo {
+            margin: auto;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            font-size: 14px;
+        }
+
+        #logo img {
             margin-top: 20px;
             width: 70px;
         }
 
-
-        #main {
-
-            height: 690px;
-            width: 32%;
-            margin: auto;
-            text-align: center;
-            margin-top: 20px;
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-            background-color: rgb(240, 243, 246);
+        #sign {
+            text-decoration: none;
         }
-        #sign{
-            text-decoration: none; 
-        }
-        #sign:hover{
-            text-decoration-line:underline;
+
+        #sign:hover {
+            text-decoration-line: underline;
         }
 
         form>h3>a {
@@ -49,21 +52,23 @@
         }
 
         form>h3 {
-            padding-top: 5%;
+            margin-top: 25px;
             padding-left: 30%;
             color: rgb(59, 58, 58);
         }
 
         form>h1 {
-            padding-top: 2%;
-            padding-right: 67%;
+            margin-top: 25px;
+            text-align: left;
+            padding-left: 10%;
             color: rgb(59, 58, 58);
         }
 
         form>h4 {
-            /* padding-top: 1%; */
-            padding-right: 53%;
+            text-align: left;
+            padding-left: 10%;
             color: rgb(83, 82, 82);
+            margin-bottom: 10px;
         }
 
         form>h4>span {
@@ -71,117 +76,120 @@
         }
 
         form>input {
-            width: 80%;
-            padding: 18px;
-            border: none;
-            border: 1px solid rgb(183, 195, 183);
-            border-radius: 0px;
-            outline: none;
+            width: 75%;
+            padding: 15px;
+            border-radius: 5px;
             border: 1px solid rgb(85, 200, 85);
             background: transparent;
-
-        }
-
-        form>.second {
-            border: 1px solid rgb(85, 200, 85);
-            margin-top: 20px;
         }
 
         #forgot>h3 {
-            padding-right: 62%;
+            text-align: left;
+            padding-left: 10%;
             color: rgb(83, 82, 82);
-        }
-
-        .next {
-            width: 88%;
-            padding: 15px;
-            border-radius: 2px;
-            background-color: rgb(162, 209, 176);
-            font-size: 16px;
-            color: white;
-            /* border: 2px solid rgb(89, 14, 102); */
-            margin-top: 20px;
-            cursor: pointer;
-            border: none;
-            color: rgb(83, 82, 82);
-
-        }
-        .next:hover{
-            background-color: rgb(95, 185, 95);
-        }
-
-        hr {
             margin-top: 30px;
         }
 
+        .next {
+            width: 80%;
+            padding: 15px;
+            border-radius: 5px;
+            background-color: rgb(105, 220, 105);
+            font-size: 16px;
+            color: white;
+            cursor: pointer;
+            border: 1px solid rgb(105, 220, 105);
+        }
+
+        .next:hover {
+            background-color: rgb(95, 185, 95);
+            transform: scale(1.05);
+            transition: 0.2s linear;
+            z-index: 2;
+            color: black;
+        }
+
+        hr {
+            margin: 30px 50px 30px;
+        }
+
         #apps {
-            padding-right: 60%;
+            text-align: left;
+            padding-left: 10%;
             color: rgb(59, 58, 58);
         }
 
-
         .sso {
-            width: 88%;
+            width: 80%;
             padding: 15px;
-            border-radius: 2px;
+            border-radius: 5px;
             background-color: white;
             font-size: 16px;
             border: 1px solid rgb(128, 123, 123);
-            margin-top: 5px;
+            margin: 15px auto 15px;
             cursor: pointer;
-
             color: rgb(83, 82, 82);
+        }
 
+        .sso:hover {
+            background-color: lightgray;
+            transform: scale(1.05);
+            transition: 0.2s linear;
+            z-index: 2;
+            color: black;
         }
 
         #applogo {
-            /* border: 1px solid red; */
             display: flex;
             justify-content: space-between;
-            width: 85%;
+            width: 80%;
             margin: auto;
-            margin-top: 20px;
-
         }
 
         #applogo>div {
-
-            border: 1px solid grey;
             padding: 8px;
-            border-radius: 2px;
+            margin-bottom: 20px;
         }
 
         #applogo>div:hover {
-            background-color: rgb(207, 203, 203);
-            border: 1px solid grey;
-
-
+            cursor: pointer;
+            transform: scale(1.25);
+            transition: 0.2s linear;
+            z-index: 2;
         }
 
         #applogo>div>img {
             width: 35px;
         }
+
     </style>
 
 </head>
 
 <body>
-    <div id="logo">
-        <img src="/images/Icon_logo.png" alt="">
-    </div>
 
     <div id="main">
         <form>
-            <h3>Dont have an account? <a href="signup.html" id="sign">Sign up</a></h3>
+            <div id="logo">
+                <a href="/index.html">
+                    <img src="/images/Icon_logo.png" alt="">
+                </a>
+                <h3>Dont have an account? <a href="signup.html" id="sign">Sign up</a></h3>
+            </div>
+            
             <h1>Log in</h1>
+            
             <h4>Email address <span>NEW!</span></h4>
             <input type="text" placeholder="Enter your email" id="email">
+            
+            <h4>Password</h4>
             <input type="text" class="second" placeholder="Enter your password" id="password">
+            
             <div id="forgot">
                 <h3>Forgot email?</h3>
             </div>
 
-            <button class="next">Next</button>
+            <a href="/index.html"><button type="submit" class="next">Next</button></a>
         </form>
 
         <hr>
@@ -189,22 +197,20 @@
         <div id="apps">
             <h3>Or login with</h3>
         </div>
-
         <button class="sso">SSO</button>
+
         <div id="applogo">
             <div><img src="/Image/microsoft.png" alt=""></div>
             <div><img src="/Image/facebook.png" alt=""></div>
-            <div><img src="/Image/linkedin.png" alt=""></div>
             <div><img src="/Image/google.png" alt=""></div>
             <div><img src="/Image/apple-logo.png" alt=""></div>
+            <div><img src="/Image/linkedin.png" alt=""></div>
         </div>
 
     </div>
 
-
-
 </body>
 
-
 </html>
+
 <script src="/Script/login.js"></script>
