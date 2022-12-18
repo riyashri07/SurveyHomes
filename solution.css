@@ -26,10 +26,15 @@
     padding: 50px;
 }
 .soln_survey-child-button{
-    background-color: rgb(145, 223, 114);
+    padding: 10px 40px 10px;
+    border-radius: 5px;
+    background-color: green;
     color: white;
-    padding: 10px;
-  border-radius: 10%;
+    font-weight: 500;
+    border: 0px;
+    margin: auto 20px 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #soln_mid-section{
     width: 100%;
@@ -59,7 +64,9 @@
     height: auto;
     /* border: 1px solid rgb(30, 255, 0); */
     font-size: 20px;
+    padding-left: 140px;
 }
+
 #awareness{
     width: 100%;
     height: auto;
@@ -84,6 +91,16 @@
 #dash{
     padding-right: 300px;
 }
+#awareness>button {
+    padding: 10px 60px 10px;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 500;
+    border: 0px;
+    margin: auto 20px 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .awness_child2{
     display: flex;
     flex-direction: column;
@@ -91,11 +108,10 @@
     height: 800px;
     /* border: 1px solid rgb(255, 34, 0);  */
     background-color: rgb(60, 158, 4)
-    
 }
 .awness_gchild1{
     width: 100%;
-    height: 400px;
+    height: 200px;
     /* border: 5px solid rgb(255, 0, 0);  */
     text-align: center;
     font-size: 25px;
@@ -103,12 +119,12 @@
 }
 .awness_gchild2{
     width: 100%;
-    height: 400px;
+    height: 600px;
     /* border: 5px solid rgb(255, 0, 0);  */
 }
-#awness_img{
+/* #awness_img{
     padding-bottom: 1000px;
-}
+} */
 
 #customersuccess{
     display: flex;
@@ -193,4 +209,16 @@
     height:auto;
     /* border: 1px solid rgb(3, 7, 34); */
 }
+.Democlick{
+    padding: 3px 25px 3px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    font-weight: 500;
+    border: 0px;
+    margin: auto 20px 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* add here footer work in progress */
