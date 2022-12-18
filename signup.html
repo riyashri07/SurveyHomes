@@ -11,78 +11,73 @@
     <style>
         body {
             background-color: rgb(237, 235, 235);
-            /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
             font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
         }
 
-        #logo {
-            height: 80px;
-            width: 32%;
-            /* border: 1px solid black; */
-            text-align: center;
+        #main {
+            height: auto;
+            width: 32.5%;
             margin: auto;
-            padding-right: 25%;
+            text-align: center;
+            margin-top: 0px;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            background-color: white;
         }
-        #logo>img{
+
+        #logo {
+            margin: auto;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            font-size: 14px;
+        }
+
+        #logo img {
             margin-top: 20px;
             width: 70px;
         }
-        
 
-        #main {
+        #log {
+            text-decoration: none;
+        }
 
-            height: 650px;
-            width: 32%;
-            margin: auto;
-            text-align: center;
-            margin-top: 20px;
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-            background-color: rgb(240, 243, 246);
-        }
-        #log{
-            text-decoration: none; 
-        }
-        #log:hover{
-            text-decoration-line:underline;
+        #log:hover {
+            text-decoration-line: underline;
         }
 
         form>h3>a {
+            margin-top: 25px;
             color: rgb(62, 190, 180);
         }
 
         form>h3 {
-            padding-top: 5%;
+            margin-top: 25px;
             padding-left: 30%;
             color: rgb(59, 58, 58);
         }
 
         form>h1 {
-            padding-top: 2%;
-            padding-right: 30%;
+            margin-top: 25px;
+            text-align: left;
+            padding-left: 10%;
             color: rgb(59, 58, 58);
         }
 
         form>h4 {
-            /* padding-top: 1%; */
-            padding-right: 65%;
+            text-align: left;
+            padding-left: 10%;
             color: rgb(83, 82, 82);
+            margin-bottom: 10px;
         }
 
         form>input {
-            width: 80%;
-            padding: 18px;
-            border: none;
-            border: 1px solid rgb(183, 195, 183);
-            border-radius: 0px;
-            outline: none;
+            width: 75%;
+            padding: 15px;
+            border-radius: 5px;
             border: 1px solid rgb(85, 200, 85);
             background: transparent;
-
-        }
-
-        form>.second {
-            border: 1px solid rgb(85, 200, 85);
-            margin-top: 20px;
         }
 
         .check>span {
@@ -93,18 +88,17 @@
             color: rgb(83, 82, 82);
         }
 
-
-
         .check {
             padding-top: 5%;
             text-align: left;
-            margin-left: 25px;
+            margin-left: 10%;
             display: flex;
         }
 
         .check span {
             margin-left: 8px;
             margin-top: 4px;
+            font-size: 15px;
         }
 
         input.cb {
@@ -112,11 +106,9 @@
             height: 20px;
         }
 
-
         .check1 {
             padding-top: 5%;
-            margin-left: 25px;
-            border: 0px solid red;
+            margin-left: 10%;
             text-align: left;
             display: flex;
         }
@@ -124,105 +116,110 @@
         .check1 span {
             width: 80%;
             padding: 0 10px;
-
+            font-size: 15px;
         }
-
 
         input.cb1 {
             width: 20px;
             height: 20px;
-
         }
-        .terms{
+
+        .terms {
             text-decoration: none;
             color: rgb(32, 133, 125);
-            /* font-size: 16px; */
         }
-        .terms:hover{
+
+        .terms:hover {
             text-decoration: underline;
         }
 
         .next {
             width: 80%;
             padding: 15px;
-            border-radius: 2px;
-            background-color: rgb(162, 209, 176);
+            border-radius: 5px;
+            background-color: rgb(105, 220, 105);
             font-size: 16px;
-            color: rgb(248, 248, 248);
-            /* border: 2px solid rgb(89, 14, 102); */
+            color: white;
             margin-top: 20px;
             cursor: pointer;
             border: none;
-            color: rgb(83, 82, 82);
         }
 
         .next:hover {
             background-color: rgb(95, 185, 95);
+            transform: scale(1.05);
+            transition: 0.2s linear;
+            z-index: 2;
+            color: black;
         }
 
         hr {
-            margin-top: 30px;
+            margin: 30px;
         }
 
         #apps {
-            padding-right: 60%;
+            text-align: left;
+            padding-left: 10%;
             color: rgb(59, 58, 58);
         }
 
         #applogo {
-            /* border: 1px solid red; */
             display: flex;
             justify-content: space-between;
-            width: 85%;
+            width: 80%;
             margin: auto;
-
         }
 
         #applogo>div {
-
-            border: 1px solid grey;
             padding: 8px;
             border-radius: 2px;
+            margin-bottom: 20px;
         }
 
         #applogo>div:hover {
-            background-color: rgb(207, 203, 203);
-            border: 1px solid grey;
-
-
+            cursor: pointer;
+            transform: scale(1.25);
+            transition: 0.2s linear;
+            z-index: 2;
         }
 
         #applogo>div>img {
             width: 35px;
         }
-       
     </style>
-
 
 </head>
 
 <body>
-    <div id="logo">
-        <img src="/images/Icon_logo.png" alt="">
-    </div>
 
     <div id="main">
         <form>
-            <h3>Already have an account? <a href="login.html" id="log">Log in</a></h3>
+            <div id="logo">
+                <a href="/index.html">
+                    <img src="/images/Icon_logo.png" alt="">
+                </a>
+                <h3>Already have an account? <a href="login.html" id="log">Log in</a></h3>
+            </div>
+
             <h1>Create an account</h1>
+
             <h4>Email address</h4>
             <input type="text" placeholder="Enter your email" id="email">
+
+            <h4>Password</h4>
             <input type="text" class="second" placeholder="Create your password" id="password">
 
             <div class="check">
                 <input type="checkbox" class="cb" required>
-                <span> You agree to the <a href="" class="terms">Terms of Use</a> & <a href="" class="terms">Privacy Notice</a> </span>
+                <span> You agree to the <a href="" class="terms">Terms of Use</a> & <a href="" class="terms">Privacy
+                        Notice</a> </span>
             </div>
             <div class="check1">
                 <input type="checkbox" class="cb1">
                 <span> You agree to receive product news and special promotions via email. You can opt-out of these
                     emails in your My Account page anytime.</span>
             </div>
+
             <a href="#"><button type="submit" class="next">Next</button></a>
         </form>
 
@@ -231,15 +228,13 @@
         <div id="apps">
             <h3>Or sign up with</h3>
         </div>
-
         <div id="applogo">
             <div><img src="/Image/microsoft.png" alt=""></div>
             <div><img src="/Image/facebook.png" alt=""></div>
-            <div><img src="/Image/linkedin.png" alt=""></div>
             <div><img src="/Image/google.png" alt=""></div>
             <div><img src="/Image/apple-logo.png" alt=""></div>
+            <div><img src="/Image/linkedin.png" alt=""></div>
         </div>
-
     </div>
 
 </body>
