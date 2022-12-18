@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    /* font-family: 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #navbar {
@@ -78,6 +78,16 @@
     
 }
 
+.top1_team{
+    color: #088853;
+    text-decoration:underline;
+}
+
+.top1_team>h3>a{
+    color:  #080909;
+    text-decoration:underline;
+}
+
 #mid_enterprise{
     /* border: 1px solid purple; */
     width: 85%;
@@ -131,6 +141,7 @@ form>input{
     height: 35px;
     border-radius: 2px;
    border-color: grey;
+   
 }
 .cb{
     margin-top: 20px;
