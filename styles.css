@@ -241,35 +241,11 @@
     z-index: 2;
 }
 
-.grid_container {
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-}
-
-.grid_container>div {
-    margin: auto;
-}
-
 .first {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
-}
-
-.grid_container>div>img {
-    width: 100%;
-    border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.grid_container>div>img:hover {
-    cursor: pointer;
-    transform: scale(1.05);
-    transition: 0.2s linear;
-    z-index: 2;
 }
 
 #banner2 {
