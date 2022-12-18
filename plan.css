@@ -78,6 +78,15 @@
     margin: auto;
     
 }
+.top1_team{
+    color:   #088853;
+    text-decoration:underline;
+}
+
+.top1_team>h3>a{
+    color:  #191d1b;
+    text-decoration:underline;
+}
 
 #container{
     /* border: 1px solid black; */
@@ -114,7 +123,7 @@
     margin: 0 auto;
     width: 70%; */
     width: 85%;
-    padding: 10px;
+    padding: 14px;
     border-radius: 2px;
     background: #007FAA;
     font-size: 16px;
@@ -130,7 +139,7 @@
 }
 .btn1{
     width: 85%;
-    padding: 10px;
+    padding: 14px;
     border-radius: 2px;
     background: #671E75;
     border-color: #671E75;
@@ -147,7 +156,7 @@
 .btn2{
     background: #05467E;
     width: 85%;
-    padding: 10px;
+    padding: 14px;
     border-radius: 2px;
  
     font-size: 16px;

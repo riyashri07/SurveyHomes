@@ -23,6 +23,11 @@
             margin: auto;
             padding-right: 25%;
         }
+        #logo>img{
+            margin-top: 20px;
+            width: 70px;
+        }
+        
 
         #main {
 
@@ -33,6 +38,12 @@
             margin-top: 20px;
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
             background-color: rgb(240, 243, 246);
+        }
+        #log{
+            text-decoration: none; 
+        }
+        #log:hover{
+            text-decoration-line:underline;
         }
 
         form>h3>a {
@@ -116,10 +127,19 @@
 
         }
 
+
         input.cb1 {
             width: 20px;
             height: 20px;
 
+        }
+        .terms{
+            text-decoration: none;
+            color: rgb(32, 133, 125);
+            /* font-size: 16px; */
+        }
+        .terms:hover{
+            text-decoration: underline;
         }
 
         .next {
@@ -175,6 +195,7 @@
         #applogo>div>img {
             width: 35px;
         }
+       
     </style>
 
 
@@ -182,12 +203,12 @@
 
 <body>
     <div id="logo">
-        <img src="/Image/one.png" alt="">
+        <img src="/images/Icon_logo.png" alt="">
     </div>
 
     <div id="main">
         <form>
-            <h3>Already have an account? <a href="login.html">Log in</a></h3>
+            <h3>Already have an account? <a href="login.html" id="log">Log in</a></h3>
             <h1>Create an account</h1>
             <h4>Email address</h4>
             <input type="text" placeholder="Enter your email" id="email">
@@ -195,7 +216,7 @@
 
             <div class="check">
                 <input type="checkbox" class="cb" required>
-                <span> You agree to the <a href="">Terms of Use</a> & <a href="">Privacy Notice</a> </span>
+                <span> You agree to the <a href="" class="terms">Terms of Use</a> & <a href="" class="terms">Privacy Notice</a> </span>
             </div>
             <div class="check1">
                 <input type="checkbox" class="cb1">

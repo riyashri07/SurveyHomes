@@ -21,6 +21,10 @@
             margin: auto;
             padding-right: 25%;
         }
+        #logo>img{
+            margin-top: 20px;
+            width: 70px;
+        }
 
 
         #main {
@@ -32,6 +36,12 @@
             margin-top: 20px;
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
             background-color: rgb(240, 243, 246);
+        }
+        #sign{
+            text-decoration: none; 
+        }
+        #sign:hover{
+            text-decoration-line:underline;
         }
 
         form>h3>a {
@@ -157,12 +167,12 @@
 
 <body>
     <div id="logo">
-        <img src="/Image/one.png" alt="">
+        <img src="/images/Icon_logo.png" alt="">
     </div>
 
     <div id="main">
         <form>
-            <h3>Dont have an account? <a href="signup.html">Sign up</a></h3>
+            <h3>Dont have an account? <a href="signup.html" id="sign">Sign up</a></h3>
             <h1>Log in</h1>
             <h4>Email address <span>NEW!</span></h4>
             <input type="text" placeholder="Enter your email" id="email">

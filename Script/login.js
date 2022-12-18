@@ -18,6 +18,7 @@ function myFun(event) {
 }
         if (flag == true) {
             alert("Welcome To Survey Homes")
+            window.location.href="index.html"
            
         } else {
             alert("wrong credentials")
