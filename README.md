@@ -33,5 +33,31 @@ This page is for the admin. Here all the functionality is added such as addition
 
 ![image](https://user-images.githubusercontent.com/108060013/208288556-c2f2b6e8-52f2-42b6-8f44-4426842f9514.png)
 
+<br>
+
+### Solution Page...
+
+![image](https://user-images.githubusercontent.com/108060013/208356323-579c41dc-cf7a-4baf-b06f-fa2f9eabf9a0.png)
+
+<br>
+
+### Plan and Pricing Page...
+
+![image](https://user-images.githubusercontent.com/108060013/208356239-05754861-dcb7-4402-bee9-daa9cf132da5.png)
+
+<br>
+
+### Login and Sign Up page...
+
+![image](https://user-images.githubusercontent.com/108060013/208356503-0449cf56-1541-4e4b-a65d-fb4aeadcbadb.png)
+![image](https://user-images.githubusercontent.com/108060013/208356519-17264be3-ea0e-4339-9f69-f1f918f46997.png)
+
+<br>
+
+### Footer Section...
+
+![image](https://user-images.githubusercontent.com/108060013/208355975-cf39a8b3-538c-4c2a-aba7-d2566449a772.png)
+
+
 
 
