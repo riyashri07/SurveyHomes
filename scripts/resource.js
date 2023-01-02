@@ -7,3 +7,4 @@ console.log(navbar())
 // document.getElementById("logo").onclick=()=>{
 //     window.location.href="resources.html" 
 // }
+// 

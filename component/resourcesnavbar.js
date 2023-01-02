@@ -1,5 +1,5 @@
 const navbar = ()=> {
-    return `<div id="navbar">
+    return ` <div id="navbar">
     <div>
         <a href="index.html">
             <img style="height: 30px; "
