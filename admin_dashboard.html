@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="shortcut icon" href="./Image/one.png" type="image/x-icon">
+    <link rel="stylesheet" href="admin_dashboard.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+</head>
+<body>
+
+    <div class="container">
+        <div id="box">
+            <div class="left-container">
+                <h4>Add Survey</h4>
+                <input required type="text" id="survey-title" class="u-full-width" placeholder="Survey Title" />
+                <input required type="text" id="survey-image" class="u-full-width" placeholder="Survey Image Url" />
+                <select name="" id="survey-select" class="u-full-width">
+                    <option value="">Category</option>
+                    <option value="customers">customers</option>
+                    <option value="education">education</option>
+                    <option value="employees">employees</option>
+                    <option value="events">events</option>
+                    <option value="healthcare">healthcare</option>
+                    <option value="market research">market research</option>
+                    <option value="nonprofit">nonprofit</option>
+                    <option value="other">other</option>
+                </select>
+                <button id="add_Survey" class="u-full-width button button-primary" >Add Survey</button>
+                <hr>
+
+                <p id="show-all-templates"></p>
+                <div id="show-details">
+                    <input type="text" placeholder="Search"><span class="material-symbols-outlined">search</span>
+                </div>
+        
+                <h4>Filter By Type</h4>
+                <div id="left-container-labels">
+                    <div>
+                        <input class="checkbox" name="checkbox" data-id="" type="radio" value="customers">
+                        <label>Customers</label>
+                    </div>
+                    <div>
+                        <input class="checkbox" name="checkbox" data-id="" type="radio" value="education">
+                        <label>Education</label> 
+                    </div>
+                    <div>
+                        <input class="checkbox" name="checkbox" data-id="" type="radio" value="employees">
+                        <label>Employees</label> 
+                    </div>
+                    <div>
+                        <input class="checkbox" name="checkbox" data-id="" type="radio" value="events">
+                        <label>Events</label> 
+                    </div>
+                    <div>
+                        <input class="checkbox" name="checkbox" data-id="" type="radio" value="healthcare">
+                        <label>Healthcare</label> 
+                    </div>
+                    <div>
+                        <input class="checkbox" name="checkbox" data-id="" type="radio" value="market research">
+                        <label>Market Research</label> 
+                    </div>
+                    <div>
+                        <input class="checkbox" name="checkbox" data-id="" type="radio" value="nonprofit">
+                        <label>Nonprofit</label> 
+                    </div>
+                    <div>
+                        <input class="checkbox" name="checkbox" data-id="" type="radio" value="other">
+                        <label>Other</label> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right-container">
+            <div>
+                <p>Surveys</p>
+                <p>Category</p>
+                <p>Action</p>
+            </div>
+            <div class="right-container-main">
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+<script src="admin_dashboard.js"></script>

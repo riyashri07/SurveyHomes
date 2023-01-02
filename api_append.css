@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#container{
+    /* border: 1px solid red; */
+    width: 90vw;
+    margin: auto;
+    height: 75vh;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#left-container{
+    width: 22%;
+    /* overflow-y: scroll; */
+    padding-left: 30px;
+    padding-top: 30px;
+    border-right: 1px solid rgb(99, 98, 98);
+}
+
+#left-container>div:nth-child(2){
+    border: 1px solid rgb(117, 117, 117);
+    border-radius: 5px;
+    height: 40px;
+    width: 230px;
+    margin-bottom: 10px;
+}
+
+#left-container>div:nth-child(2)>input{
+    width: 215px;
+    border: none;
+    position: absolute;
+    height: 29px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    font-size: 18px;
+    background: transparent;
+}
+
+.material-symbols-outlined{
+    padding-top: 10px;
+    margin-left: 200px;
+}
+
+#left-container>p{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    color: rgb(41, 45, 49);
+}
+
+#left-container-labels>div{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    font-size: 19px;
+    color: rgb(51, 62, 72);
+}
+
+#left-container-labels>div>input{
+    cursor: pointer;
+}
+
+#left-container-labels>div>label{
+    padding-left: 10px;
+    user-select: none;
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+}
+
+#right-container{
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 30px 10px;
+    padding: 30px;
+    padding-left: 75px;
+    overflow-y: scroll;
+    height: 500px;
+}
+
+.child-box{
+    height: 200px;
+    border-radius: 5px;
+    width: 90%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+}
+
+.child-box>p{
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#show{
+    color: rgb(49, 191, 111);
+}
+
+#left-container>p:nth-child(1){
+    color: rgb(120, 122, 124);
+    font-size: 18px;
+}
+
+
+@media all and (max-width:320px){
+    #container{
+        flex-direction: column;
+    }
+    #left-container{
+        width: 100%;
+        border: 1px dashed rgb(100, 100, 100);
+        border-radius: 3px;
+    }
+}

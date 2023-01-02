@@ -1,0 +1,477 @@
+/* solution top css */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+* button:hover {
+    cursor: pointer;
+    transform: scale(1.06);
+    transition: 0.2s linear;
+    z-index: 2;
+}
+
+#navbar {
+    margin: auto;
+    width: auto;
+    height: 75px;
+    padding-left: 75px;
+    padding-right: 75px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    z-index: 10;
+}
+
+#navbar>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#nav_container {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: medium;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#nav_container ul li {
+    position: relative;
+    display: inline-block;
+    margin: 0px 35px;
+    line-height: 75px;
+}
+
+#nav_container ul li a {
+    color: black;
+    display: block;
+    line-height: 70px;
+    text-decoration: none;
+    background: white;
+    font-size: medium;
+    transition: 0.5s;
+}
+
+#nav_container>ul>li>a:hover {
+    color: rgb(50, 150, 130);
+    transform: scale(1.05);
+    transition: 0.2s linear;
+    z-index: 2;
+}
+
+#nav_container ul li ul {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#nav_container ul li:hover>ul {
+    visibility: visible;
+    opacity: 1;
+    width: 305px;
+    top: 78px;
+    border-radius: 5px;
+    transition: 0.25s linear;
+    background-color: white;
+}
+
+#nav_container ul li:hover ul li {
+    font-weight: 400;
+    font-size: 14px;
+    display: block;
+    padding: 0px 20px 0px;
+    margin: 0px;
+}
+
+#nav_container ul ul li ul {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#nav_container ul ul li:hover>ul {
+    visibility: visible;
+    opacity: 1;
+    width: 250px;
+    top: 0px;
+    margin-left: 290px;
+    border-radius: 5px;
+    transition: 0.25s linear;
+    background-color: white;
+    transform: 2s;
+}
+
+#navbar>div>a>button {
+    margin-right: 20px;
+    padding: 8px 12px 8px;
+    border-radius: 5px;
+    background-color: rgb(249, 190, 0);
+    border: 0px;
+    font-size: medium;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navbar>div>a:first-child>button {
+    padding: 8px 12px 8px;
+    border-radius: 5px;
+    background-color: white;
+    border: 0px;
+    font-size: medium;
+    font-weight: 500;
+    margin-right: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#soln_top {
+    margin: auto;
+    padding-top: 75px;
+    text-align: center;
+    height: 300px;
+    color: white;
+    background-color: rgb(144, 43, 60);
+    font-size: large;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#soln_top>p {
+    margin-top: 25px;
+}
+
+#soln_survey {
+    margin: 50px auto 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.soln_survey-child {
+    font-size: 15px;
+    width: 40%;
+    height: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.soln_survey-child>p {
+    margin: 20px auto 20px;
+}
+
+.soln_survey-child-button {
+    padding: 10px 40px 10px;
+    border-radius: 5px;
+    background-color: green;
+    border: 0px;
+    color: white;
+    font-weight: 500;
+    margin: auto 20px 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#soln_mid-section {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#soln_mid-section>h1 {
+    margin: 25px auto 25px;
+}
+
+#soln_learn-section {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#soln_promate-section {
+    margin: 30px auto 30px;
+    height: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.soln_promate-section-child {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 16px;
+}
+
+.soln_promate-section-child>p {
+    margin-top: 10px;
+}
+
+.soln_promate-section-child>a {
+    text-decoration: none;
+}
+
+#awareness {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#awness {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#awness>div {
+    width: 50%;
+    height: auto;
+    background-color: rgba(240, 248, 255, 0.747);
+    padding-left: 75px;
+    padding-top: 25px;
+    text-align: left;
+    font-size: 16px;
+}
+
+#awness>div:nth-child(2) {
+    width: 50%;
+    background-color: rgb(60, 158, 4);
+    padding-left: 75px;
+    padding-top: 50px;
+    text-align: left;
+    font-size: 16px;
+}
+
+#awness>div>h3 {
+    margin-top: 25px;
+}
+
+#awness>div>p {
+    margin-top: 10px;
+}
+
+#awness_img>img {
+    margin: auto;
+    margin-top: 10px;
+    width: 75%;
+}
+
+#awareness>button {
+    padding: 10px 60px 10px;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 500;
+    border: 0px;
+    margin: auto 20px 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#customersuccess {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    background-color: rgb(144,43,60);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.customersuccess_child1 {
+    width: 50%;
+    height: 400px;
+}
+
+.customersuccess_child2 {
+    padding-top: 50px;
+    width: 50%;
+    height: 400px;
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-size: 18px;
+}
+
+.bottomi {
+    margin: 50px auto 50px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 85%;
+    height: auto;
+    text-align: center;
+}
+
+.bottom-child {
+    width: 20%;
+    height: auto;
+    text-align: center;
+}
+
+/* roger1 start here */
+.roger1 {
+    margin: 75px auto 25px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.roger1>p {
+    font-size: large;
+    margin-top: 20px;
+}
+
+#roger2 {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#roger2>div {
+    width: 50%;
+    margin: 30px auto 20px;
+    text-align: center;
+}
+
+#roger2>div>p {
+    margin: 20px auto 20px;
+}
+
+.Democlick {
+    padding: 10px 12px 10px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    font-weight: 500;
+    border: 0px;
+    margin: auto 20px 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* add here footer work in progress */
+
+#bottom {
+    margin: auto;
+    margin-top: 25px;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(251, 251, 251);
+}
+
+#bottom>div {
+    display: flex;
+    justify-content: space-around;
+}
+
+#bottom>div>div>a>img {
+    width: 175px;
+    margin-top: 15px;
+}
+
+#bottom>div>div>a>img:hover {
+    transform: scale(1.05);
+    z-index: 2;
+}
+
+#bottom>div>div>h3 {
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+#bottom>div>div>p {
+    font-size: small;
+    margin-bottom: 7px;
+    color: rgb(100, 100, 100);
+}
+
+#bottom>div>div>p:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.2s linear;
+    z-index: 2;
+}
+
+#bottom>div>div>input {
+    margin: 10px auto 20px;
+    width: 80%;
+    height: 30px;
+    padding-left: 20px;
+}
+
+#bottom>div>div>a>button {
+    color: white;
+    background-color: rgb(249, 190, 0);
+    padding: 10px 15px 10px;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+}
+
+#bottom>div>div>a>button:hover {
+    transform: scale(1.05);
+    z-index: 2;
+}
+
+#footer {
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+    height: 55px;
+    border-top: 0.25px solid lightgray;
+    border-bottom: 0.25px solid lightgray;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer>img {
+    height: 75%;
+    margin: auto;
+}
+
+#footer>svg {
+    height: 50%;
+    margin: auto;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#footer>svg:hover {
+    transform: scale(1.25);
+    transition: 0.2s linear;
+    z-index: 2;
+}
+
+body>p {
+    margin: 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+hr {
+    margin-top: 30px;
+}

@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    display: flex;
+    width: 85vw;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#box{
+    width: 30%;
+    border: 1px solid rgb(225, 225, 225);
+    border-radius: 5px;
+    height: 900px;
+}
+
+.left-container{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.left-container>h4{
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    color: rgb(29, 31, 34);
+}
+
+.left-container>input{
+    width: 96%;
+    height: 30px;
+    padding: 5px;
+    font-size: 18px;
+    margin: 12px 0;
+    border-radius: 3px;
+    border: 1px solid rgb(113, 121, 128);
+}
+
+.left-container>select{
+    width: 100%;
+    padding: 5px;
+    height: 40px;
+    font-size: 18px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid rgb(113, 121, 128);
+}
+
+.left-container>button{
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    margin: 10px 0;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-bottom: 30px;
+    cursor: pointer;
+    background-color: rgb(0, 191, 111);
+}
+
+.left-container>button:hover{
+    background-color: rgb(8, 141, 86);
+}
+
+#show-details{
+    border: 1px solid rgb(117, 117, 117);
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+#show-details>input{
+    width: 19.5%;
+    border: none;
+    position: absolute;
+    height: 29px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    font-size: 18px;
+    background: transparent;
+}
+
+.material-symbols-outlined{
+    padding-top: 8px;
+    margin-left: 18vw;
+}
+
+#left-container-labels>div{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    font-size: 19px;
+    color: rgb(51, 62, 72);
+}
+
+input[type=radio] {
+    height: 20px;
+    width: 20px;
+}
+
+#left-container-labels>div>input{
+    cursor: pointer;
+}
+
+#left-container-labels>div>label{
+    padding-left: 10px;
+    user-select: none;
+    font-weight: lighter;
+}
+#show{
+    color: rgb(49, 191, 111);
+}
+
+#show-all-templates{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 25px;
+    color: rgb(41, 45, 49);
+}
+
+.right-container{
+    width: 65%;
+    border: 1px solid rgb(225, 225, 225);
+    border-radius: 5px;
+    height: 900px;
+    overflow-y: scroll;
+}
+
+.right-container>div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 90px;
+    font-size: 22px;
+    padding: 10px 0;
+    font-weight: bold;
+    color: rgb(41, 45, 49);
+}
+
+#right-container-cards{
+    border: 1px dashed rgb(161, 156, 156);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 40px;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+#right-container-cards>div:nth-child(1){
+    width: 40%;
+}
+
+#right-container-cards>div:nth-child(2){
+    width: 33%;
+}
+
+#right-container-cards>div:nth-child(3){
+    width: 15%;
+    padding-right: 30px;
+}
+
+#right-container-cards button{
+    width: 90px;
+    height: 35px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(0, 191, 111);
+    color: white;
+    border-radius: 3px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#right-container-cards button:hover{
+    background-color: red;
+    color: white;
+}
+
+.child-box{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+}
+
+
+@media all and (max-width:760px){
+    .container{
+        flex-direction: column;
+    }
+    #box{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .right-container{
+        width: 100%;
+    }
+    .material-symbols-outlined{
+        margin-left: 62vw;
+    }
+}
+
+@media all and (max-width:560px){
+    .container{
+        flex-direction: column;
+    }
+    #box{
+        margin-bottom: 20px;
+    }
+
+    .right-container{
+        width: 100%;
+    }
+    .right-container>div:nth-child(1){
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #right-container-cards{
+        display:block;
+        padding-left: 10%;
+    }
+    #right-container-cards>div{
+        margin: 10px;
+    }
+    #box{
+        width: 100%;
+        height: 870px;
+    }
+    #show-details>input{
+        width: 64%;
+    }
+    .material-symbols-outlined{
+        margin-left: 60vw;
+    }
+}

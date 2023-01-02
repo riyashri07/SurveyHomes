@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup_page</title>
+    <link rel="icon" href="./images/Icon_logo.png" type="image/icon type">
+
+    <style>
+        body {
+            background-color: rgb(237, 235, 235);
+            font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        #main {
+            height: auto;
+            width: 32.5%;
+            margin: auto;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            background-color: white;
+        }
+
+        #logo {
+            margin: auto;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            font-size: 14px;
+        }
+
+        #logo img {
+            margin-top: 20px;
+            width: 70px;
+        }
+
+        #log {
+            text-decoration: none;
+        }
+
+        #log:hover {
+            text-decoration-line: underline;
+        }
+
+        form>h3>a {
+            color: rgb(62, 190, 180);
+        }
+
+        form>h3 {
+            margin-top: 25px;
+            padding-left: 30%;
+            color: rgb(59, 58, 58);
+        }
+
+        form>h1 {
+            margin-top: 25px;
+            text-align: left;
+            padding-left: 10%;
+            color: rgb(59, 58, 58);
+        }
+
+        form>h4 {
+            text-align: left;
+            padding-left: 10%;
+            color: rgb(83, 82, 82);
+            margin-bottom: 10px;
+        }
+
+        form>input {
+            width: 75%;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid rgb(85, 200, 85);
+            background: transparent;
+        }
+
+        .check>span {
+            color: rgb(83, 82, 82);
+        }
+
+        .check1>span {
+            color: rgb(83, 82, 82);
+        }
+
+        .check {
+            padding-top: 5%;
+            text-align: left;
+            margin-left: 10%;
+            display: flex;
+        }
+
+        .check span {
+            margin-left: 8px;
+            margin-top: 4px;
+            font-size: 15px;
+        }
+
+        input.cb {
+            width: 20px;
+            height: 20px;
+        }
+
+        .check1 {
+            padding-top: 5%;
+            margin-left: 10%;
+            text-align: left;
+            display: flex;
+        }
+
+        .check1 span {
+            width: 80%;
+            padding: 0 10px;
+            font-size: 15px;
+        }
+
+        input.cb1 {
+            width: 20px;
+            height: 20px;
+        }
+
+        .terms {
+            text-decoration: none;
+            color: rgb(32, 133, 125);
+        }
+
+        .terms:hover {
+            text-decoration: underline;
+        }
+
+        .next {
+            width: 80%;
+            padding: 15px;
+            border-radius: 5px;
+            background-color: rgb(105, 220, 105);
+            font-size: 16px;
+            color: white;
+            margin-top: 20px;
+            cursor: pointer;
+            border: 1px solid rgb(105, 220, 105);
+        }
+
+        .next:hover {
+            background-color: rgb(95, 185, 95);
+            transform: scale(1.05);
+            transition: 0.2s linear;
+            z-index: 2;
+            color: black;
+        }
+
+        hr {
+            margin: 30px 50px 30px;
+        }
+
+        #apps {
+            text-align: left;
+            padding-left: 10%;
+            color: rgb(59, 58, 58);
+        }
+
+        #applogo {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin: auto;
+        }
+
+        #applogo>div {
+            padding: 8px;
+            margin-bottom: 20px;
+        }
+
+        #applogo>div:hover {
+            cursor: pointer;
+            transform: scale(1.25);
+            transition: 0.2s linear;
+            z-index: 2;
+        }
+
+        #applogo>div>img {
+            width: 35px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div id="main">
+        <form>
+            <div id="logo">
+                <a href="./index.html">
+                    <img src="./images/Icon_logo.png" alt="">
+                </a>
+                <h3>Already have an account? <a href="login.html" id="log">Log in</a></h3>
+            </div>
+
+            <h1>Create an account</h1>
+
+            <h4>Email address</h4>
+            <input type="text" placeholder="Enter your email" id="email">
+
+            <h4>Password</h4>
+            <input type="text" class="second" placeholder="Create your password" id="password">
+
+            <div class="check">
+                <input type="checkbox" class="cb" required>
+                <span> You agree to the <a href="" class="terms">Terms of Use</a> & <a href="" class="terms">Privacy
+                        Notice</a> </span>
+            </div>
+            <div class="check1">
+                <input type="checkbox" class="cb1">
+                <span> You agree to receive product news and special promotions via email. You can opt-out of these
+                    emails in your My Account page anytime.</span>
+            </div>
+
+            <a href="/index.html"><button type="submit" class="next">Next</button></a>
+        </form>
+
+        <hr>
+
+        <div id="apps">
+            <h3>Or sign up with</h3>
+        </div>
+        <div id="applogo">
+            <div><img src="./Image/microsoft.png" alt=""></div>
+            <div><img src="./Image/facebook.png" alt=""></div>
+            <div><img src="./Image/google.png" alt=""></div>
+            <div><img src="./Image/apple-logo.png" alt=""></div>
+            <div><img src="./Image/linkedin.png" alt=""></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+<script src="/Script/signup.js"></script>
