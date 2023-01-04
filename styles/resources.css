@@ -76,3 +76,126 @@
     margin-top:20px ;
     padding-left: 20px;
 }
+
+/* section second start here  */
+
+#section_second{
+    
+    width: 92%;
+    margin: auto;
+    margin-top: 330px;
+    font-size: 20px;
+
+}
+#section_secondspan{
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    width: 95%;
+    justify-content: flex-start;
+}
+.section_secondspan{
+    font-weight: 500;
+    padding-bottom: 16px;
+    position: relative;
+    text-decoration: none;
+    color: #a1a4a7;
+    transition: color .2s ease-in-out,border .2s ease-in-out;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.section_secondspan:hover{
+    color: #53d69f;;
+}
+hr{
+    width: 93%;
+    margin: auto;
+    color: #a1a4a7;
+    font-weight: bold;
+}
+#section_secondspan2{
+    display: flex;
+    width: 92%;
+    margin: auto;
+    margin-top: 30px;
+    justify-content: flex-start;
+}
+.section2_spansecond{
+    display: inline-block;
+    margin: 0 12px 12px 0;
+    padding: 8px 12px;
+    transition: background-color .2s ease-in-out;
+    background-color: #d1d3d4;
+    border-radius: 24px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    white-space: nowrap;
+}
+.section2_spansecond:hover{
+    color: white;
+    background-color: #22d087;
+}
+/* section third start here  */
+#sectionthird_container{
+    width: 92%;
+    height: auto;
+    
+    border: 0px solid red;
+    margin: auto;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-row-gap: 20px;
+    gap: 10px   
+}
+
+#sectionthird_container>div{
+   width: 100%;
+   box-shadow: 0 1px 2px 0 rgb(0 0 0 / 2%), 0 3px 10px 0 rgb(0 0 0 / 20%);
+}
+#sectionthird_container>div>img{
+   width: 90%;
+   box-shadow: 0 1px 2px 0 rgb(0 0 0 / 2%), 0 3px 10px 0 rgb(0 0 0 / 20%);
+}
+
+.section_thirdspan{
+    color: #a1a4a7;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-top: 40px;
+    text-transform: uppercase;
+}
+.section_thirdspanheading{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    font-weight: bold;
+    color: #1E2124;
+}
+#section_thirdspanimage{
+    transition: .2s all ease-in-out;
+   
+}
+
+.section_thirdspanimage{
+    
+   padding-left: 20px;
+   padding-bottom: 20px;
+    width: 90%;
+    margin: auto;
+    transition: .2s all ease-in-out;
+    cursor: pointer;
+    position: relative;
+    background-color: #fff;
+   
+}
+.section_thirdspanimage:hover{
+    transition: .2s all ease-in-out;
+}
+/* section four start here  */
