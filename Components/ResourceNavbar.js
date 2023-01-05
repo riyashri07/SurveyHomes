@@ -20,7 +20,7 @@ function Navbar() {
     <img src="https://cdn-icons-png.flaticon.com/128/5636/5636698.png" />
      </div>
 </div>`
-   
+
 }
 
-export default Navbar ;
+export default Navbar;
