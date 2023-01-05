@@ -79,8 +79,6 @@
     padding-left: 20px;
 }
 
-/* section second start here  */
-
 #section_second{
     
     width: 92%;
@@ -200,8 +198,7 @@ hr{
 .section_thirdspanimage:hover{
     transition: .2s all ease-in-out;
 }
-/* section four start here  */
-
+/* section fourth start here  */
 #section4_container{
     display: flex;
     width: 100%;
@@ -240,9 +237,9 @@ hr{
   
     background-color: #22d087;
 }
+/* section5herestart */
 
 
-/* section5 start here  */
 
 #sectionfifth_container{
     width: 92%;
@@ -336,4 +333,41 @@ hr{
     height: 40px;
     border-color: #00bf6f;
     background-color: #00bf6f;
+}
+
+/* section six start here  */
+#sectionsix_container{
+    width: 100%;
+    height: 250px;
+    margin: auto;
+    text-align: center;
+    
+    background-color: #05467e;
+    margin-top: 30px;
+}
+.sectionsix_heading{
+  
+   border: 0px solid red;
+}
+#sectionsix_container>div>h4{
+    font-size: 44px;
+    line-height: 52px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    color: #fff;
+    font-weight: 500;
+    
+}
+.sectionsix_buttondiv{
+    margin: auto;
+    width: 30%;
+    height: 20px;
+}
+.sectionsix_button{
+    color: #333e48;
+    border-color: #f9be00;
+    background-color: #f9be00;
+    width: 150px;
+    height: 50px;
+    border-radius: 4px;
 }
