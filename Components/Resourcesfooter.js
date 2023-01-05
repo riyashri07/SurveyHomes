@@ -1,6 +1,6 @@
 
 
-function Resourcesfooter(){
+function Resourcesfooter() {
     return `<div id="footer">
     <p>Payment Methods : </p>
     <img src="https://www.naturesbasket.co.in/Images/icons-card-payments-mode.png">

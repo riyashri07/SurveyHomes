@@ -1,6 +1,6 @@
 
-function Artical(){
-    return ` <div id="sectionfifth_container">
+function Artical() {
+  return ` <div id="sectionfifth_container">
     <div id="sectionfifth_firstdiv">
       <div class="section_fifthspan">ARTICAL</div>
 
