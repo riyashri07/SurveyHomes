@@ -6,16 +6,16 @@
 #navbar {
     margin: auto;
     width: 100%;
-    height:50px;
-    /* padding-left: 75px; */
+    height:70px;
+    padding-left: 15px;
     /* padding-right: 75px; */
     position: sticky;
     top: 0;
     display: flex;
     justify-content: space-between;
-    /* background-color: #27ae60; */
-    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
-    /* z-index: 10; */
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    z-index: 10;
 }
 
 #navbar>div {
@@ -39,7 +39,9 @@
 }
 
 #navbar>div>button {
+
     padding: 10px 15px 10px;
+    
  
     border-radius: 5px;
     background-color: rgb(249, 190, 0);

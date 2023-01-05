@@ -1,17 +1,17 @@
 function Navbar() {
     return `<div id="navbar">
     <div>
-        <a href="index.html">
-            <img style="height: 30px; "
+        <a href="resources.html">
+            <img style="height: 30px; " id="logo"
                 src="https://prod.smassets.net/assets/website/2.197.0/images/logo-resources--en-US.svg">
         </a>
     </div>
     <div id="curiosity">
         <p>Curiosity at Work | SurveyMonkey</p>
         <p>SurveyMonkey.com</p>
-      
-       
-    </div>
+      </div>
+
+
     <div id="navbar_logIn">
         <button>Log in</button>
         <button>Sign Up free</button>
