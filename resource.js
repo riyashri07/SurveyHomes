@@ -1,7 +1,7 @@
-import {navbar} from "./Component/resourcesnavbar.js"
+import Navbar from "./Component/resourcesnavbar.js"
 
 let header=document.getElementById("navbar_section")
-header.innerHTML = navbar()
+header.innerHTML = Navbar();
 
 // console.log(navbar());
 // document.getElementById("logo").onclick=()=>{

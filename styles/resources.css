@@ -4,23 +4,25 @@
 }
 
 #serchbar_logo {
-    padding-right: 0px;
+    padding-right: 50px;
     align-items: center;
 }
 
 #curiosity {
-    border: 1px solid red;
+    border: 0px solid red;
+    margin: auto;
     display: flex;
     justify-content: space-between;
-    /* margin-left: 40px; */
+    padding-left: 100px;
 
 
 }
 
 #navbar_logIn {
-    border: 1px solid red;
+    border: 0px solid red;
+   
     margin: auto;
-    margin-left: 50px;
+    padding-left: 200px;
 
 }
 
@@ -199,3 +201,139 @@ hr{
     transition: .2s all ease-in-out;
 }
 /* section four start here  */
+
+#section4_container{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #05467e;
+}
+.section4_firstdiv{
+    width: 50%;
+    margin: auto;
+}
+.section4_firstdiv>p{
+    font-size: 32px;
+    line-height: 40px;
+    color: #fff;
+}
+.section4_image{
+    width: 40%;
+    margin: auto;
+}
+
+.section4_span{
+    display: inline-block;
+    margin: 0 12px 12px 0;
+    padding: 8px 12px;
+    transition: background-color .2s ease-in-out;
+    background-color: #fff;
+   
+    border-radius: 24px;
+    text-decoration: none;
+    color: rgb(46, 23, 23);
+    font-weight: 500;
+    white-space: nowrap;
+}
+.section4_span:hover{
+  
+    background-color: #22d087;
+}
+
+
+/* section5 start here  */
+
+#sectionfifth_container{
+    width: 92%;
+    height: auto;
+    
+    border: 0px solid red;
+    margin: auto;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 20px;
+    gap: 10px   
+}
+
+#sectionfifth_container>div{
+   width: 100%;
+   box-shadow: 0 1px 2px 0 rgb(0 0 0 / 2%), 0 3px 10px 0 rgb(0 0 0 / 20%);
+}
+#sectionfifth_container>div>img{
+   width: 90%;
+   box-shadow: 0 1px 2px 0 rgb(0 0 0 / 2%), 0 3px 10px 0 rgb(0 0 0 / 20%);
+}
+
+.section_fifthspan{
+    color: #a1a4a7;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-top: 40px;
+    text-transform: uppercase;
+}
+.section_fifthspanheading{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    font-weight: bold;
+    color: #1E2124;
+}
+#section_fifthspanimage{
+    transition: .2s all ease-in-out;
+   
+}
+
+.section_fifthspanimage{
+    
+   padding-left: 20px;
+   padding-bottom: 20px;
+    width: 90%;
+    margin: auto;
+    transition: .2s all ease-in-out;
+    cursor: pointer;
+    position: relative;
+    background-color: #fff;
+   
+}
+.section_fifthspanimage:hover{
+    transition: .2s all ease-in-out;
+}
+#sectionfifth_button{
+
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+  
+}
+.sectionfifth_button{
+    width: 98%; 
+    margin: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    border-radius: 4px;
+    font-weight: 500;
+    font-family: "National 2","Helvetica Neue",Helvetica,Arial,"Hiragino Sans","Hiragino Kaku Gothic Pro","æ¸¸ã‚´ã‚·ãƒƒã‚¯","æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“",YuGothic,"Yu Gothic","ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯","MS Gothic",sans-serif;
+    text-decoration: none;
+    border: 1px solid rgba(0,0,0,0);
+    box-shadow: none;
+    transition: color .4s,border-color .4s,background-color .4s;
+    color: #fff;
+    border-color: #00bf6f;
+    background-color: #00bf6f;
+}
+.sectionfifth_button{
+  
+    font-size: 15px;
+    height: 40px;
+    border-color: #00bf6f;
+    background-color: #00bf6f;
+}

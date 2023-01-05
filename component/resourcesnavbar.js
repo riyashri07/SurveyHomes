@@ -1,5 +1,5 @@
-const navbar = ()=> {
-    return ` <div id="navbar">
+function Navbar() {
+    return `<div id="navbar">
     <div>
         <a href="index.html">
             <img style="height: 30px; "
@@ -23,4 +23,4 @@ const navbar = ()=> {
    
 }
 
-export default navbar 
+export default Navbar ;
