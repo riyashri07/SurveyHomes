@@ -1,6 +1,6 @@
 # simple-tank-2275
 
-####.....SurveyHome.....
+. . . . . SurveyHome . . . . .
 
 #### SurveyHome, a clone of the SurveyMonkey website which is an online survey service provider that allow users to create web browser based surveys. This website offers both free and paid account that includes enhanced features.
 
