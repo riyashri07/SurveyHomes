@@ -1,12 +1,12 @@
 # simple-tank-2275
 
-#### The Unique name of the project is SurveyHome.
+. . . . . SurveyHome . . . . .
 
-#### SurveyHome is clone of the SurveyMonkey website is an online service that allows users to create web browser based surveys. This service offers both a free account and a paid account that includes enhanced features.
+#### SurveyHome, a clone of the SurveyMonkey website which is an online survey service provider that allow users to create web browser based surveys. This website offers both free and paid account that includes enhanced features.
 
 <br>
 
-### Dashboard Page...
+### HomePage...
 
 ![image](https://user-images.githubusercontent.com/108060013/208284992-2eedb2c5-38c8-42f4-85be-d04ce9e82563.png)
 
@@ -15,7 +15,7 @@
 ### Api functionality section...
 
 Here all the data are appended by using CRUD operations and are fetched from mock API.
-Different functionalities such as search products and filtering by catergory is also added.
+Different functionalities such as search products and filtering by catergory are also operational.
 
 ![image](https://user-images.githubusercontent.com/108060013/208285029-5437e85e-7401-47b0-a3bd-8fb9ee253c3e.png)
 
@@ -57,7 +57,3 @@ This page is for the admin. Here all the functionality is added such as addition
 ### Footer Section...
 
 ![image](https://user-images.githubusercontent.com/108060013/208355975-cf39a8b3-538c-4c2a-aba7-d2566449a772.png)
-
-
-
-
